@@ -1,0 +1,21 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding:60px 60px;
+    border-color:  #6e6868;
+  
+.col-3{
+    width: 272px;
+    height: 380px;
+     
+    .card-img{
+      margin: 0 auto;
+    }
+}
+.card{
+    height: 450px;
+}
+.card-desc{
+    padding-top: 10px;
+}
+}

@@ -1,0 +1,23 @@
+.title-part{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    p{
+        margin-right: 10px;
+    } 
+}
+#col{
+    .col-12{
+        width: 1219px;
+    }
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row{
+   display: flex; 
+   flex-direction: column;
+   background-color: gray;
+}
