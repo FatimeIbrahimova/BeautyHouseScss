@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     padding:60px 60px;
-    border-color:  #6e6868;
   
 .col-3{
     width: 272px;
     height: 380px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
      
     .card-img{
       margin: 0 auto;
@@ -18,4 +18,19 @@
 .card-desc{
     padding-top: 10px;
 }
+}
+.card-img{
+    .bronze{
+        height: 220px;
+    width: 100%;
+    }
+}
+.col-12{
+    width: 100%;
+}
+.col-6 {
+    width: 50%;
+    img{
+        width: 95%;
+    }
 }

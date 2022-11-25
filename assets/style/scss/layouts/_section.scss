@@ -4,20 +4,47 @@
     margin-left: 60px;
     p{
         margin-right: 10px;
-    } 
-}
-#col{
-    .col-12{
-        width: 1219px;
     }
 }
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.col-12{
+    width: 100%;
 }
-.row{
-   display: flex; 
-   flex-direction: column;
-   background-color: gray;
+#subscribe{
+    background-color: #F0F0F0;
+    .subscribe__row{
+        justify-content: center;
+        h4{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 32px;
+        }
+        form{
+            text-align: center;
+            input{
+                border-radius: 6px;
+                background-color: #fff;
+                border: none;
+                padding: 14px 0px 14px 16px;
+                font-size: 14px;
+                line-height: 20px;
+                width: 75%;
+                &::placeholder{
+                    padding-left: 20px;
+                    color: #828282;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            button{
+                background: #1D2123;
+                border-radius: 8px; 
+                color: white;
+                padding: 14px 34px;
+            }
+        }
+    }
 }
