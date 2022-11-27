@@ -1,9 +1,43 @@
-#footer{
-    background-color: black;
-    .col-3{
-        color: white;
-        h2{
-            text-align: center;
-        }
+#footer {
+  background-color: black;
+
+  .col-3 {
+    color: white;
+
+    h2 {
+      text-align: start;
     }
+  }
+
+  .about__row {
+    box-shadow: none;
+  }
+}
+
+.footer-bottom {
+  padding-bottom: 20px;
+  color: white;
+
+  .footer_end {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__leftside {
+    margin-left: 40px;
+  }
+
+  &__rightside {
+    display: flex;
+    flex-direction: row;
+
+    h5 {
+      padding-right: 60px;
+
+    }
+  }
+}
+
+.debet-cards {
+  margin-top: 30px;
 }

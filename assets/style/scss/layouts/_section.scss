@@ -1,19 +1,24 @@
-.title-part{
+.title-part {
     display: flex;
     justify-content: space-between;
     margin-left: 60px;
-    p{
+
+    p {
         margin-right: 10px;
     }
 }
-.col-12{
+
+.col-12 {
     width: 100%;
 }
-#subscribe{
+
+#subscribe {
     background-color: #F0F0F0;
-    .subscribe__row{
+
+    .subscribe__row {
         justify-content: center;
-        h4{
+
+        h4 {
             font-weight: 400;
             font-size: 16px;
             line-height: 20px;
@@ -21,9 +26,11 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             margin-bottom: 32px;
         }
-        form{
+
+        form {
             text-align: center;
-            input{
+
+            input {
                 border-radius: 6px;
                 background-color: #fff;
                 border: none;
@@ -31,17 +38,20 @@
                 font-size: 14px;
                 line-height: 20px;
                 width: 75%;
-                &::placeholder{
+
+                &::placeholder {
                     padding-left: 20px;
                     color: #828282;
                 }
-                &:focus{
+
+                &:focus {
                     outline: none;
                 }
             }
-            button{
+
+            button {
                 background: #1D2123;
-                border-radius: 8px; 
+                border-radius: 8px;
                 color: white;
                 padding: 14px 34px;
             }
